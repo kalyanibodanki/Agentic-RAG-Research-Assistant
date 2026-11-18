@@ -1,0 +1,39 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+venv/
+venv311/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Node modules and build files
+node_modules/
+dist/
+build/
+
+# Uploaded research papers
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Python and test caches
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Generated indexes and temporary files
+*.faiss
+*.index
+*.pkl
+*.pickle
